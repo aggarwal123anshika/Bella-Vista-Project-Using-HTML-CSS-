@@ -35,7 +35,7 @@ body {
 .logo h1 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 0.2rem;
+    margin-bottom: -0.7rem;
 }
 .logo tagline {
     font-size: 0.9rem;
@@ -71,7 +71,7 @@ body {
 
 .hero-content h2 {
     font-size: 3.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
     font-weight: 300;
     letter-spacing: 2px;
 
@@ -100,6 +100,7 @@ body {
 .btn-primary {
     background-color: #e74c3c;
     color: white;
+    border-radius: 10px;
 
 }
 .btn-primary:hover {
@@ -110,6 +111,7 @@ body {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+    border-radius: 10px;
 
 }
 .btn-secondary:hover {
@@ -118,15 +120,22 @@ body {
 }
 
 .menu {
-    padding: 5rem 0;
+    padding: 1rem 0;
     background-color: #f8f9fa;
 
 }
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: #181817;
+}
+.section-titlee {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #181817;
+    margin-top: -100px;
 }
 .section-subtitle {
     text-align:center;
@@ -374,25 +383,34 @@ body {
 .footer {
     background-color: var(--secondary-color);
     color: white;
-    padding: 3rem 0 1rem;
+    padding: 0.2rem;
+    padding-top: 2rem;
     margin-top: 5rem;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap: 2rem;
+    gap: 1.8rem;
     margin-bottom: 2rem;
+}
+.footer-section p {
+    font-size: 14px;
+
 }
 .footer-section h3 , .footer-section h4{
     margin-bottom: 1rem;
     color: white;
+}
+.quick{
+    padding-left: 50px;
 }
 .footer-section ul {
     list-style: none;
 }
 .footer-section ul li {
     margin-bottom: 0.5rem;
+    padding-left: 50px;
 }
 .footer-section a {
     color: #bdc3c7;
@@ -404,10 +422,15 @@ body {
 }
 .social-links {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    gap: 0.5rem;
 }
 .social-link {
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.2rem;
+    margin: 3px;
+    padding: 3px;
     background-color: rgba(255,255,255,0.1);
     border-radius: 5px;
     transition: var(--transition);
@@ -418,7 +441,7 @@ body {
 }
 .footer-bottom {
     text-align: center;
-    padding: 2rem;
+    padding: 0.2rem;
     border-top: 1px solid #7f6160;
 }
 
